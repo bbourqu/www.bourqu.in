@@ -2,9 +2,27 @@
 // endbower
 
 body {
-  background: #fafafa;
+  background: #000;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
+}
+
+@keyframes pulse {
+    from { text-shadow: 2px 2px 1px #F00;}
+    to { text-shadow: 2px 2px 50px #F00;}
+
+}
+
+.huge-font{
+ font-size:500px;
+ animation: pulse 4s ease 0s infinite alternate;
+}
+
+.centered{
+  width:300px;
+  margin: 0px auto;
+  text-align: center;
+  vertical-align: center;
 }
 
 .hero-unit {
