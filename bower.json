@@ -3,10 +3,26 @@
   "private": true,
   "dependencies": {
     "jquery": "~2.1.1",
-    "modernizr": "~2.8.1"
+    "modernizr": "~2.8.1",
+    "particles.js": "~2.0.0"
   },
   "devDependencies": {
     "chai": "~3.4.2",
     "mocha": "~2.3.4"
-  }
+  },
+  "authors": [
+    "bbourqu <brett@bourqu.in>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
