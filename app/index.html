@@ -1,11 +1,17 @@
 <!doctype html> 
-<html class=no-js> 
+<html class=no-js lang=""> 
     <head> 
         <meta charset=utf-8> 
         <meta name=description> 
         <meta name=viewport content="width=device-width, initial-scale=1"> 
         <title>&lambda;nomaly Inc.</title> 
-        <link rel=stylesheet href=styles/main.css> 
+        
+        <!-- build:css styles/main.css -->
+        <link rel=stylesheet href=styles/main.css>
+        <!-- endbuild -->
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="/bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
     </head> 
     <body> 
         <!--[if lt IE 10]>
@@ -13,7 +19,13 @@
         <![endif]--> 
         <div class="huge-font centered">&lambda;</div>
         <div id=dust-motes></div>
+        
+        <!-- build:js scripts/vendor/particles.js -->
         <script src="/bower_components/particles.js/particles.js"></script>
-        <script src="/scripts/app.js"></script>
+        <!-- endbuild -->
+        
+        <!-- build:js scripts/main.js -->
+        <script src="/scripts/main.js"></script>
+        <!-- endbuild -->
     </body> 
 </html> 
